@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rule_ssm/rule_ssm.iml" filepath="$PROJECT_DIR$/rule_ssm/rule_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_mybatis/springmvc_mybatis.iml" filepath="$PROJECT_DIR$/springmvc_mybatis/springmvc_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-start/web-start.iml" filepath="$PROJECT_DIR$/web-start/web-start.iml" />
+    </modules>
+  </component>
+</project>
