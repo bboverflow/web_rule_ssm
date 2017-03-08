@@ -17,5 +17,8 @@ public interface ItemsService {
     public ItemsCustom findItemsById(Integer id) throws Exception;
 
     //根据id修改商品信息
-    public void updateItems(Integer id,ItemsCustom itemsCustom) throws Exception;
+    public void updateItems(Integer id,ItemsQueryVo itemsQueryVo) throws Exception;
+
+    //根据id删除商品信息
+    public void deleteItems(ItemsQueryVo itemsQueryVo) throws Exception;
 }

@@ -15,7 +15,7 @@
 
 
 	<!-- 加载db.properties文件中的内容 -->
-	<context:property-placeholder location="classpath:db.properties" />
+	<context:property-placeholder location="classpath:db.properties" file-encoding="UTF-8"/>
 
 	<!-- 配置数据源 ，dbcp -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"

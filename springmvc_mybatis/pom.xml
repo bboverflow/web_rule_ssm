@@ -230,7 +230,13 @@
       <version>1.6.11</version>
     </dependency>
 
-    <!-- log end -->
+    <!--添加hibernate校验-->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>4.3.2.Final</version>
+    </dependency>
+
     <!-- 映入JSON -->
     <dependency>
       <groupId>org.codehaus.jackson</groupId>

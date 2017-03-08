@@ -8,4 +8,6 @@ import java.util.List;
 
 public interface ItemsCustomMapper {
     public List<ItemsCustom> findItemsList(ItemsQueryVo itemsQueryVo) throws Exception;
+
+    public void deleteItems(ItemsQueryVo itemsQueryVo) throws Exception;
 }

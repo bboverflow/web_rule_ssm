@@ -1,16 +1,25 @@
 package cn.trusteye.ssm.po;
 
+import cn.trusteye.ssm.validation.ValidGroup1;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 public class Items {
     private Integer id;
 
+    //校验名称1-30个字符
+    @Size(min=1,max=30,message="{items.name.length.error}",groups = {ValidGroup1.class})
     private String name;
-
+    //非空校验
+    @NotNull(message="{items.price.isNULL}")
     private Float price;
 
     private String pic;
 
+    //非空校验
+    @NotNull(message = "{items.createtime.isNULL}",groups = {ValidGroup1.class})
     private Date createtime;
 
     private String detail;
